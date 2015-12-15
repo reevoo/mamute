@@ -1,0 +1,1 @@
+$("form").not(".ajax").submit(function(){var a=$(this);if(a.valid()){var b=a.find("input[type=submit]");b.attr("disabled","true"),a.addClass("inactive")}});

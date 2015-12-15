@@ -1,0 +1,1 @@
+$(function(){if(marked.setOptions({sanitize:!0}),$(".wmd-input").on("keyup",function(){var a=$(this),b=a.closest(".wmd").find(".md-preview");0==a.val().length?b.addClass("hidden"):(b.removeClass("hidden"),b.html(marked(a.val())))}),$(".wmd-panel").length>0){var a=Markdown.getSanitizingConverter(),b=new Markdown.Editor(a);b.run()}});

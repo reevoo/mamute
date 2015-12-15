@@ -1,0 +1,1 @@
+!function(){function a(a){return""==a.trim()?void c.hide():(c.show(),void c.find(".suggested-questions-list").html(a))}var b,c=$("#question-suggestions"),d=$("#question-title");d.keyup(function(){var e=d.val();e.length>=5?(clearTimeout(b),b=setTimeout(function(){$.get("/questionSuggestion",{query:e,limit:2},a)},1e3)):c.hide()})}();

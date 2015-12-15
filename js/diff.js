@@ -1,0 +1,1 @@
+$(".history-form").each(function(a,b){$(".history-comparison").prettyTextDiff({originalContainer:".history-current .post-text",changedContainer:$(b).find(".history-version .post-text").first(),diffContainer:$(b).find(".history-diff.post-text").first(),cleanup:!0})});

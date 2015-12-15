@@ -1,0 +1,1 @@
+$(function(){$(".share-button").click(function(){var a=$(this).data("shareurl");window.open(a,"share","width=650, height=450")})});

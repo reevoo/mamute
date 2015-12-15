@@ -1,0 +1,1 @@
+$(".button-hint").click(function(){var a=$(this),b=$("#"+a.data("button-hint-id"));$(".button-hint-text").not(b).hide(100),$(".button-hint").not(a).removeClass("active"),b.toggle(150),a.toggleClass("active")});

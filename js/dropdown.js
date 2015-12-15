@@ -1,0 +1,1 @@
+$(function(){$(".dropdown-trigger").click(function(a){a.preventDefault(),$("#"+$(this).data("target-id")).toggle()})});

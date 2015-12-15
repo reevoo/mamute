@@ -1,0 +1,1 @@
+$(".more-comments").click(function(){var a=$(this).siblings(".comment-list").find(".collapsed");a.toggleClass("hidden"),$(this).html(a.hasClass("hidden")?Messages.get("show_all")+" <strong>"+$(this).attr("size")+"</strong> "+Messages.get("the_comments"):"Ocultar comentários")});
